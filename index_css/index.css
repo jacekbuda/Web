@@ -1,0 +1,58 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Monsterrat';
+}
+
+.hello_background {
+  height: 100%;
+  width: 100%;
+  background-image: url("../stuff/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.9;
+  position: relative;
+}
+
+.border {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.border a {
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border: 3px solid #000;
+  font-size: 3.2em;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.border a:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.border p {
+  color: transparent;
+  font-size: 1.3em;
+}
+
+body:hover p {
+  color: #fff;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+/*# sourceMappingURL=index.css.map */
